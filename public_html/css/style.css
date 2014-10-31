@@ -5,3 +5,27 @@ body {
 #game-screen {
     display: block;
 }
+
+#gameOver {
+    position: absolute;
+    visibility: hidden;
+}
+
+h1, h3 {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  text-align: center;
+ }
+ .title {
+     font-size: 62px;
+     margin-button: 0px;
+ }
+ 
+ #restartButton {
+     border: 2px solid white;
+     border-radius: 10px;
+ }
+ 
+ #restartButton:hover {
+     background-color: #009900;
+ }
